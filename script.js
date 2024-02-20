@@ -5,5 +5,5 @@ function registerPatient() {
 
     
 
-    alert('Patient Registered:\nName: ${name}\nEmail: ${email}');
+    alert(`Patient Registered:\nName: ${name}\nEmail: ${email}`);
 }
