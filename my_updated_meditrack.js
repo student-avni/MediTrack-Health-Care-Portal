@@ -21,7 +21,7 @@ db.connect(err => {
     console.log("✅ Connected to MySQL Database");
 });
 
-// Registration API
+// ✅ Registration API
 app.post('/register', (req, res) => {
     const { name, email, contact, password } = req.body;
 
@@ -38,7 +38,7 @@ app.post('/register', (req, res) => {
     });
 });
 
-// Start Server
+// ✅ Start Server
 app.listen(port, () => {
     console.log(`🚀 Server is running on port ${port}`);
 });
